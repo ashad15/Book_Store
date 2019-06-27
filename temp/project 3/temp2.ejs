@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<%- include('./head.ejs') %>
+    <title></title>
+  </head>
+  <body>
+    <ul>
+      <% for (let prod of dt){%>
+    <li><%=prod.t%></li>
+  <% } %>
+    </ul>
+
+<%- include('./end.ejs') %>
